@@ -7,8 +7,7 @@ export default function Work() {
     <section className='w-full h-full p-8 md:p-16' id='work'>
       <div className='h-full'>
         <div className='w-full flex justify-between text-3xl  md:text-5xl text-white font-normal'>
-          <h3>Selected works</h3>
-          <h4 className='text-gray tracking-tighter'>21&apos;-24&apos;</h4>
+          <h3>Recent Works</h3>
         </div>
         <div className='w-full flex flex-col'>
           <Link
@@ -17,7 +16,7 @@ export default function Work() {
           >
             <div className='h-[550px] mt-12 relative rounded-2xl overflow-hidden group cursor-pointer'>
               <Image
-                src='/images/img.png'
+                src='/images/monogatari.png'
                 alt='Monogatari project'
                 fill
                 className='object-cover rounded-2xl duration-1000 group-hover:scale-110'
@@ -41,7 +40,7 @@ export default function Work() {
           >
             <div className='h-[400px] md:mt-8 relative rounded-2xl overflow-hidden group cursor-pointer'>
               <Image
-                src='/images/img.png'
+                src='/images/omi.png'
                 alt='Ominio project'
                 fill
                 className='object-cover rounded-2xl duration-1000 group-hover:scale-110'
@@ -65,7 +64,7 @@ export default function Work() {
           >
             <div className='h-[400px] md:mt-8 relative rounded-2xl overflow-hidden group cursor-pointer'>
               <Image
-                src='/images/img.png'
+                src='/images/nissan.png'
                 alt='Andanac project'
                 fill
                 className='object-cover rounded-2xl duration-1000 group-hover:scale-110'
