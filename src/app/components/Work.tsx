@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function Work() {
   return (
-    <section className='w-full h-full p-8 md:p-16 bg-primary' id='work'>
+    <section className='w-full h-full p-8 md:p-16' id='work'>
       <div className='h-full'>
         <div className='w-full flex justify-between text-3xl  md:text-5xl text-white font-normal'>
           <h3>Selected works</h3>
@@ -18,7 +18,7 @@ export default function Work() {
             <div className='h-[550px] mt-12 relative rounded-2xl overflow-hidden group cursor-pointer'>
               <Image
                 src='/images/img.png'
-                alt='First project'
+                alt='Monogatari project'
                 fill
                 className='object-cover rounded-2xl duration-1000 group-hover:scale-110'
               />
@@ -42,7 +42,7 @@ export default function Work() {
             <div className='h-[400px] md:mt-8 relative rounded-2xl overflow-hidden group cursor-pointer'>
               <Image
                 src='/images/img.png'
-                alt='First project'
+                alt='Ominio project'
                 fill
                 className='object-cover rounded-2xl duration-1000 group-hover:scale-110'
               />
@@ -66,7 +66,7 @@ export default function Work() {
             <div className='h-[400px] md:mt-8 relative rounded-2xl overflow-hidden group cursor-pointer'>
               <Image
                 src='/images/img.png'
-                alt='First project'
+                alt='Andanac project'
                 fill
                 className='object-cover rounded-2xl duration-1000 group-hover:scale-110'
               />
@@ -84,7 +84,7 @@ export default function Work() {
       <div className='w-full h-full flex justify-center mt-4'>
         <Link
           href='/projects'
-          className='mt-12 bg-secondary text-black px-8 py-4 rounded-full hover:bg-[#216d34] duration-300'>
+          className='mt-12 bg-secondary text-black px-8 py-4 rounded-full hover:bg-[#216d34] duration-300 z-50'>
           See more
         </Link>
       </div>

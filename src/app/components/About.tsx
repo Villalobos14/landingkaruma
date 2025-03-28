@@ -1,23 +1,25 @@
 const links = [
-  { name: 'Open roles', href: '#' },
-  { name: 'Internship program', href: '#' },
-  { name: 'Our values', href: '#' },
-  { name: 'Meet our leadership', href: '#' },
-]
+  { name: 'Nuestros servicios', href: '#' },
+  { name: 'Casos de éxito', href: '#' },
+  { name: 'Nuestro equipo', href: '#' },
+  { name: 'Contáctanos', href: '#' },
+];
+
 const stats = [
-  { name: 'Offices worldwide', value: '12' },
-  { name: 'Full-time colleagues', value: '300+' },
-  { name: 'Hours per week', value: '40' },
-  { name: 'Paid time off', value: 'Unlimited' },
-]
+  { name: 'Proyectos completados', value: '250+' },
+  { name: 'Clientes satisfechos', value: '150+' },
+  { name: 'Años de experiencia', value: '10' },
+  { name: 'Colaboradores', value: '50+' },
+];
+
 
 export default function About() {
   return (
-    <div className="relative isolate overflow-hidden bg-primary py-24 sm:py-32">
+    <section className="relative isolate overflow-hidden bg-primary py-24 sm:py-32">
       <img
         alt=""
         src='/images/img2.jpg'
-        className="absolute inset-0 -z-10 size-full object-cover object-right md:object-center shadow-2xl"
+        className="absolute inset-0 -z-50 size-full object-cover object-right md:object-center shadow-2xl"
       />
       <div
         aria-hidden="true"
@@ -43,12 +45,12 @@ export default function About() {
           className="aspect-1097/845 w-[68.5625rem] bg-linear-to-tr from-[#000] to-[#F5f5f5] opacity-20"
         />
       </div>
+
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-5xl font-semibold tracking-tight text-complementary sm:text-7xl">Work with us</h2>
-          <p className="mt-8 text-lg font-medium text-gray-300 sm:text-xl/8">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-            fugiat veniam occaecat fugiat.
+        <div className="mx-auto max-w-3xl lg:mx-0">
+          <h2 className="text-5xl font-semibold tracking-tight text-complementary sm:text-7xl">About</h2>
+          <p className="mt-8 text-base font-medium text-gray-300 ">
+            En Karuma, nos especializamos en desarrollar soluciones digitales innovadoras que transforman la manera en que las empresas operan y se conectan con sus clientes. Con un enfoque en la tecnología de vanguardia y el diseño centrado en el usuario, ayudamos a las marcas a alcanzar su máximo potencial en el mundo digital.
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
@@ -69,7 +71,7 @@ export default function About() {
           </dl>
         </div>
       </div>
-    </div>
+    </section>
 
   )
 }

@@ -93,7 +93,7 @@ export default function Footer() {
   }
 
   return (
-<footer className="bg-primary" aria-labelledby="footer-heading">
+<footer className="bg-[#0f0e0e]" aria-labelledby="footer-heading">
   <h2 id="footer-heading" className="sr-only">
     Footer
   </h2>
@@ -102,7 +102,7 @@ export default function Footer() {
       <div className="grid grid-cols-2 gap-8 xl:col-span-2">
         <div className="md:grid md:grid-cols-2 md:gap-8">
           <div>
-            <h3 className="text-base font-medium text-secondary">Solutions</h3>
+            <h3 className="text-base font-medium text-complementary">Solutions</h3>
             <ul role="list" className="mt-4 space-y-4">
               {footerNavigation.solutions.map((item) => (
                 <li key={item.name}>
@@ -114,7 +114,7 @@ export default function Footer() {
             </ul>
           </div>
           <div className="mt-12 md:mt-0">
-            <h3 className="text-base font-medium text-secondary">Support</h3>
+            <h3 className="text-base font-medium text-complementary">Support</h3>
             <ul role="list" className="mt-4 space-y-4">
               {footerNavigation.support.map((item) => (
                 <li key={item.name}>
@@ -128,7 +128,7 @@ export default function Footer() {
         </div>
         <div className="md:grid md:grid-cols-2 md:gap-8">
           <div>
-            <h3 className="text-base font-medium text-secondary">Company</h3>
+            <h3 className="text-base font-medium text-complementary">About Karuma</h3>
             <ul role="list" className="mt-4 space-y-4">
               {footerNavigation.company.map((item) => (
                 <li key={item.name}>
@@ -140,7 +140,7 @@ export default function Footer() {
             </ul>
           </div>
           <div className="mt-12 md:mt-0">
-            <h3 className="text-base font-medium text-secondary">Legal</h3>
+            <h3 className="text-base font-medium text-complementary">Legal</h3>
             <ul role="list" className="mt-4 space-y-4">
               {footerNavigation.legal.map((item) => (
                 <li key={item.name}>
@@ -154,9 +154,9 @@ export default function Footer() {
         </div>
       </div>
       <div className="mt-12 xl:mt-0">
-        <h3 className="text-base font-medium text-secondary">Subscribe to our newsletter</h3>
+        <h3 className="text-base font-medium text-complementary">Subscribe to Karuma's newsletter</h3>
         <p className="mt-4 text-base text-white">
-          The latest news, articles, and resources, sent to your inbox weekly.
+          Stay up-to-date with the latest advancements in technology, news, and insights from Karuma, delivered straight to your inbox.
         </p>
         <form className="mt-4 sm:flex sm:max-w-md">
           <label htmlFor="email-address" className="sr-only">
@@ -174,7 +174,7 @@ export default function Footer() {
           <div className="mt-3 rounded-md sm:mt-0 sm:ml-3 sm:flex-shrink-0">
             <button
               type="submit"
-              className="flex w-full items-center justify-center rounded-md border border-transparent bg-secondary px-4 py-3 text-base font-medium text-primary shadow-sm hover:bg-secondary"
+              className="flex w-full items-center justify-center rounded-md border border-transparent bg-secondary-dark px-4 py-3 text-base font-medium text-complementary shadow-sm hover:bg-complementary"
             >
               Subscribe
             </button>
@@ -192,12 +192,11 @@ export default function Footer() {
         ))}
       </div>
       <p className="mt-8 text-base text-gray-400 md:order-1 md:mt-0">
-        &copy; 2020 Karuma. All rights reserved.
+        &copy; 2025 Karuma Technologies. All rights reserved.
       </p>
     </div>
   </div>
 </footer>
-
 
   )
 }
