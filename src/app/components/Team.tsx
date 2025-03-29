@@ -64,7 +64,7 @@ export default function Team() {
               Meet our leadership
             </h2>
             <p className="mt-6 text-lg/8 text-complementary">
-              We’re a dynamic group of individuals who are passionate about what we do and dedicated to delivering the
+              We&apos;re a dynamic group of individuals who are passionate about what we do and dedicated to delivering the
               best results for our clients.
             </p>
           </div>

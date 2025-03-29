@@ -155,7 +155,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="mt-12 xl:mt-0">
-        <h3 className="text-base font-medium text-complementary">Subscribe to Karuma's newsletter</h3>
+        <h3 className="text-base font-medium text-complementary">Subscribe to Karuma&apos;s newsletter</h3>
         <p className="mt-4 text-base text-white">
           Stay up-to-date with the latest advancements in technology, news, and insights from Karuma, delivered straight to your inbox.
         </p>
